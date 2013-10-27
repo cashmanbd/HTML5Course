@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reset.css">
+        <link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <title>
+            Brendan
+        </title>
+    </head>  
+    <body>
+        <section>
+            <img src="forkme_left_orange_ff7600.png">
+            <header>
+                <h1>Vows</h1>
+                <h2><mark>Asynchronous</mark> behaviour driven <mark>development</mark> for Node.</h2>
+                <p>There are two reasons why we might want asynchronous testing. The first, and obvious reason is that node.js is asynchronous, and therefore our tests should be. The second reason is to make tests which target I/O run much faster, by running them concurrently.
+                </p>
+            </header>
+            <section>
+                <h3>Write some vows, execute them:</h3>
+                <br>
+                <ul>
+                    <li>$ vows test/* --spec</li>    
+                </ul>
+                <br>
+                <h3>Get the report, make sure you kept your word.</h3>
+                <br>
+                <ul>
+                    <li>A non-promise return value</li>
+                    <li class ="passed">should be converted to a promise</li>
+                    <li>A topic not emitting an error</li>
+                    <li class ="passed">should pass null if the test is expecting an error</li>
+                    <li class ="passed">should pass the result otherwise</li>
+                    <li>A topic emitting an error</li>
+                    <li class ="passed"> shouldn't raise an exception if the test expects it</li>
+                    <li>A context with a nested context</li>
+                    <li class ="passed"> has access to the environment</li>
+                    <li>- can make coffee</li>
+                    <li>A nested context</li>
+                    <li class ="passed"> should have access to the parent topics</li>
+                    <li>A nested context with no topics</li>
+                    <li class ="passed">should pass the parent topics down</li>
+                </ul>
+            </section>
+        </section>
+    </body>
+</html>

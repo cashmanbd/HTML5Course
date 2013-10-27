@@ -1,0 +1,16 @@
+#first {
+    fill:blue;
+    stroke:yellow;
+    /*transition: all 2s linear 0.2s;*/
+    
+}
+
+#first:hover {
+    fill:red;
+    stroke:green;
+    /*-webkit-transform: rotate(30deg);*/
+}
+
+#first:hover ~ g.test > .switch {
+    fill:greenyellow;
+}

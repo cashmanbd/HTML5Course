@@ -1,0 +1,64 @@
+body{
+    background-color: #bcd279;
+}
+body > section > img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+body > section{
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+}
+body > section > header,
+body > section > section{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 400px;
+}
+
+/*------fixing the reset------------------*/
+
+li{
+    list-style: none;
+}
+mark{
+    background-color: transparent;
+    font-style: normal;
+}
+
+/*-------your styles-----------*/
+
+h1,h2,h3,p,ul{
+    padding: 12px 24px;
+}
+body > section > header{
+
+    border: 2px dashed #a9c653;
+    font-family: 'Droid Serif', 'Georgia';
+    background-color: #ecf2d9;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+}
+body > section > header > h1{
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Lobster';
+    color: #354c29;
+    font-size: 96px;
+    font-weight: normal;
+}
+body > section > header > h2 > mark {
+    color: red;
+    background-color: transparent;
+}
+body > section > section > ul {
+    background-color: #272625;
+    margin-left: 24px;
+    border: 1px dashed #e6ebe0;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.5);
+}
+body > section > section > ul > li{
+    padding-right: 6px;
+    color: #ebefe7;
+}

@@ -1,0 +1,13 @@
+body > video{
+    border: 2px dashed #a9c653;
+    background-color: #ecf2d9;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-image: url('webm-file.jpg');
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    background-color:#b0e0e6;
+}
